@@ -1,8 +1,12 @@
-
 \documentclass[11pt,a4paper]{article}
-
-\usepackage[margin=2cm]{geometry}
 \usepackage{enumitem}
+\usepackage[
+    left=1.9cm,
+    right=1.9cm,
+    top=1.4cm,
+    bottom=1.4cm
+]{geometry}
+\usepackage[hidelinks]{hyperref}
 
 % No page number
 \pagestyle{empty}
@@ -16,14 +20,15 @@
     topsep=0pt,
     parsep=0pt
 }
+\renewcommand{\labelitemi}{\raisebox{0.3ex}{\tiny$\bullet$}}
 
 % Section headings: bold, uppercase, with horizontal rule
 \newcommand{\cvsection}[1]{%
-    \vspace{8pt}
-    \noindent\textbf{\large\MakeUppercase{#1}}\par
-    \vspace{2pt}
-    \hrule
+    \vspace{5pt}
+    \noindent\textbf{\MakeUppercase{#1}}\par
     \vspace{4pt}
+    \hrule
+    \vspace{3pt}
 }
 
 % Subheading: bold left text and bold right-aligned date
@@ -38,18 +43,17 @@
 \begin{document}
 
 % Name and contact details
-{
-    \centering
+\begin{center}
     {\LARGE\textbf{Allan Wu}}\\[4pt]
     0413 360 799
-    \enspace{} $\vert$ \enspace{}
-    allan.wu@outlook.com.au
-    \enspace{} $\vert$ \enspace{}
-    linkedin.com/in/allan-wu-engsci
-    \enspace{} $\vert$ \enspace{}
+    \;\textbar{}\;
+    \href{mailto:allan.wu@outlook.com.au}{allan.wu@outlook.com.au}
+    \;\textbar{}\;
+    \href{https://www.linkedin.com/in/allan-wu-engsci}{linkedin.com/in/allan-wu-engsci}
+    \;\textbar{}\;
     Murdoch WA
-}
-\vspace{-5mm}
+\end{center}
+\vspace{-2.5mm}
 
 \cvsection{Summary}
 
@@ -61,24 +65,22 @@ and utilities sectors, particularly in automation and renewable energy.
 \cvsection{Technical Skills}
 
 \begin{itemize}
-    \item Programming languages: Python, Java, C, SQL, MATLAB
-    \item Electronic circuit simulation and design: LTspice, VHDL
-    \item Data analysis and automation: Excel, Power BI, Power Apps
+    \item Programming languages: Python, Java, C (in Vim \& Visual Studio Code), SQL, MATLAB
+    \item Electronic circuit simulation and design: LTspice, VHDL (ModelSim \& Intel Quartus Prime)
+    \item Data analysis and automation: Excel, Power BI, Power Apps, Power Automate, Dataverse
 \end{itemize}
 
 \cvsection{Education}
 
 \cvitemlong%
-    {Bachelor of Engineering (Honours) \& Bachelor of Science}%
+    {Bachelor of Engineering (Honours) and Bachelor of Science}%
     {2023--Expected Dec 2027}%
     {The University of Western Australia}
 
 \begin{itemize}
-    \item Combined degree majoring in Electrical and Electronic
-    Engineering and Computer Science
+    \item Combined degree majoring in Electrical and Electronic Engineering and Computer Science
     \item GPA\@: 6.893/7.000, WAM\@: 88.214\%
-    \item Faculty commendation for excellence: 96\% in
-    Computational Thinking with Python (2023)
+    \item Faculty commendation for excellence: 96\% in Computational Thinking with Python (2023)
 \end{itemize}
 
 \cvitemlong%
@@ -88,7 +90,7 @@ and utilities sectors, particularly in automation and renewable energy.
 
 \begin{itemize}
     \item ATAR of 99.55
-    \item First violin leader in string ensemble
+    \item Instrumental and Ensemble Music Performance program: first violin leader in string ensemble
 \end{itemize}
 
 \cvsection{Coursework Projects}
@@ -98,10 +100,27 @@ and utilities sectors, particularly in automation and renewable energy.
     {Mar--May 2026} % chktex 8
 
 \begin{itemize}
-    \item Developed a Flask web application for tracking university
-    schedules and sharing availability with friends.
-    \item Led database design and backend implementation.
+    \item Effectively worked in a 4-member team to develop a Flask web application for tracking university schedules and sharing availability with friends, including reviewing frontend and backend code
+    \item Led the design of the database and backend implementation, including server-side rendering with Jinja templates, routing, and end-to-end testing using Selenium
 \end{itemize}
+
+\cvitemshort%
+    {Group research report (Electronic Materials and Devices)}%
+    {Mar--May 2025} % chktex 8
+
+\begin{itemize}
+    \item Demonstrated technical writing and project management skills, collaborating in a 4-member team assignment on the environmental impacts of laptop computers and mitigation strategies
+    \item Conducted literature reviews using academic databases, organised weekly meetings, and led final formatting and editing of the report for increased clarity and consistency
+\end{itemize}
+
+\cvitemshort%
+    {Source-to-source translator program (Systems Programming)}%
+    {Aug--Sept 2024} % chktex 8
+
+\begin{itemize}
+    \item Demonstrated proficiency in low-level programming with the design and implementation of a C11 program which translates, compiles and executes programs written in a small mini-language
+\end{itemize}
+
 
 \cvsection{Work Experience}
 
@@ -111,9 +130,28 @@ and utilities sectors, particularly in automation and renewable energy.
     {Rio Tinto Iron Ore}
 
 \begin{itemize}
-    \item Performed Python data analysis of employee rosters.
-    \item Built automated reports and business applications to track
-    workforce and fleet operations.
+    \item Performed Python data analysis of employee rosters to quantify annual hours spent on training
+    \item Built automated reports and business applications to track workforce and mass transport fleet operations for Pilbara Projects (\textgreater{}1000 users), with software documentation for non-technical users
+    \item Reviewed Manufacturer's Data Reports, identifying discrepancies during rail project close-out
 \end{itemize}
+
+\cvitemlong%
+    {Waiter}%
+    {Nov 2022--Oct 2025}%
+    {Winthrop Hawker's Cafe}
+
+\begin{itemize}
+    \item Developed teamwork and communication skills, working effectively with other staff to maximise customer satisfaction: maintaining a clean and welcoming dining environment, greeting customers, serving orders and attending to customer requests in a fast-paced environment
+\end{itemize}
+
+\cvitemlong%
+    {English Tutor}%
+    {Nov 2023--Jan 2024}%
+    {3E Learning}
+
+\begin{itemize}
+    \item Tutored primary and upper school students in English and Literature, developing lesson plans with tailored readings and assessments to improve students' creative and analytical writing skills
+\end{itemize}
+
 
 \end{document}
