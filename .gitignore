@@ -1,5 +1,6 @@
-main.aux
-main.fdb_latexmk
-main.fls
-main.synctex.gz
-main.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.log
+*.out
