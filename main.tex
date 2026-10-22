@@ -1,0 +1,119 @@
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+
+% No page number
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parindent}{0pt}
+
+% Compact bullet lists
+\setlist[itemize]{
+    leftmargin=1.1em,
+    itemsep=1pt,
+    topsep=0pt,
+    parsep=0pt
+}
+
+% Section headings: bold, uppercase, with horizontal rule
+\newcommand{\cvsection}[1]{%
+    \vspace{8pt}
+    \noindent\textbf{\large\MakeUppercase{#1}}\par
+    \vspace{2pt}
+    \hrule
+    \vspace{4pt}
+}
+
+% Subheading: bold left text and bold right-aligned date
+\newcommand{\cvitemshort}[2]{%
+    \noindent\textbf{#1}\hfill\textbf{#2}
+}
+
+\newcommand{\cvitemlong}[3]{%
+    \noindent\textbf{#1}\hfill\textbf{#2}\par\textit{#3}
+}
+
+\begin{document}
+
+% Name and contact details
+{
+    \centering
+    {\LARGE\textbf{Allan Wu}}\\[4pt]
+    0413 360 799
+    \enspace{} $\vert$ \enspace{}
+    allan.wu@outlook.com.au
+    \enspace{} $\vert$ \enspace{}
+    linkedin.com/in/allan-wu-engsci
+    \enspace{} $\vert$ \enspace{}
+    Murdoch WA
+}
+\vspace{-5mm}
+
+\cvsection{Summary}
+
+Engineering and computer science student with strong analytical and
+problem-solving skills, and experience in data analysis and visualisation.
+Passionate about applying technology to tackle problems in the resources
+and utilities sectors, particularly in automation and renewable energy.
+
+\cvsection{Technical Skills}
+
+\begin{itemize}
+    \item Programming languages: Python, Java, C, SQL, MATLAB
+    \item Electronic circuit simulation and design: LTspice, VHDL
+    \item Data analysis and automation: Excel, Power BI, Power Apps
+\end{itemize}
+
+\cvsection{Education}
+
+\cvitemlong%
+    {Bachelor of Engineering (Honours) \& Bachelor of Science}%
+    {2023--Expected Dec 2027}%
+    {The University of Western Australia}
+
+\begin{itemize}
+    \item Combined degree majoring in Electrical and Electronic
+    Engineering and Computer Science
+    \item GPA\@: 6.893/7.000, WAM\@: 88.214\%
+    \item Faculty commendation for excellence: 96\% in
+    Computational Thinking with Python (2023)
+\end{itemize}
+
+\cvitemlong%
+    {Western Australian Certificate of Education}%
+    {2017--2022}%
+    {Willetton Senior High School}
+
+\begin{itemize}
+    \item ATAR of 99.55
+    \item First violin leader in string ensemble
+\end{itemize}
+
+\cvsection{Coursework Projects}
+
+\cvitemshort%
+    {Uni calendar web app (Agile Web Development)}%
+    {Mar--May 2026} % chktex 8
+
+\begin{itemize}
+    \item Developed a Flask web application for tracking university
+    schedules and sharing availability with friends.
+    \item Led database design and backend implementation.
+\end{itemize}
+
+\cvsection{Work Experience}
+
+\cvitemlong%
+    {Controls Engineer Intern}%
+    {Nov 2025--Present}%
+    {Rio Tinto Iron Ore}
+
+\begin{itemize}
+    \item Performed Python data analysis of employee rosters.
+    \item Built automated reports and business applications to track
+    workforce and fleet operations.
+\end{itemize}
+
+\end{document}
