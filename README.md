@@ -6,17 +6,17 @@ My one-page resume, typeset in $\LaTeX$.
 - Disclaimer: AI tools were used to generate the formatting macros.
 
 ## Summary
-------
+
 Engineering and computer science student with strong analytical and problem-solving skills, and experience in data analysis and visualisation. Passionate about applying technology to tackle problems in the resources and utilities sectors, particularly in automation and renewable energy.
 
 ## Technical Skills
-------
+
 -   Programming languages and tools: Python, C, SQL, MATLAB, Java, JavaScript, Git/GitHub
 -   Electronic circuit simulation and design: LTspice, VHDL (ModelSim, Intel Quartus Prime)
 -   Data analysis and business automation: Microsoft Excel, Power BI, Power Apps, Power Automate
 
 ## Education
-------
+
 ### Bachelor of Engineering (Honours) / Bachelor of Science (2023–expected Dec 2027)
 
 *The University of Western Australia*
@@ -33,7 +33,7 @@ Engineering and computer science student with strong analytical and problem-solv
 -   Instrumental and Ensemble Music Performance program: first violin leader in string ensemble
 
 ## Coursework Projects
-------
+
 ### Uni calendar web app (Agile Web Development) (Mar–May 2026)
 -   Effectively worked in a 4-member team to develop a Flask web application for tracking university schedules and sharing availability with friends, including reviewing frontend and backend code
 -   Led the design of the database and backend implementation, including server-side rendering with Jinja templates, routing, and end-to-end testing using Selenium
@@ -48,7 +48,7 @@ Engineering and computer science student with strong analytical and problem-solv
     executes programs written in a small mini-language
 
 ## Work Experience
-------
+
 ### Controls Engineer Intern (Nov 2025–Present)
 
 *Rio Tinto Iron Ore*
