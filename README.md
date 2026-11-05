@@ -13,7 +13,7 @@ Engineering and computer science student with strong analytical and problem-solv
 
 -   Programming languages and tools: Python, C, SQL, MATLAB, Java, JavaScript, Git/GitHub
 -   Electronic circuit simulation and design: LTspice, VHDL (ModelSim, Intel Quartus Prime)
--   Data analysis and business automation: Microsoft Excel, Power BI, Power Apps, Power Automate
+-   Data analysis and business automation: Microsoft Excel, Dataverse, Power BI, Power Automate
 
 ## Education
 
@@ -51,7 +51,7 @@ Engineering and computer science student with strong analytical and problem-solv
 
 ### Controls Engineer Intern (Nov 2025–Present)
 
-*Rio Tinto Iron Ore*
+*Rio Tinto (Pilbara Iron)*
 -   Performed Python data analysis of employee rosters to quantify annual hours spent on training
 -   Built automated reports and business applications to track workforce and mass transport fleet operations for Pilbara Projects (\>1000 users), with software documentation for non-technical users
 -   Reviewed Manufacturer's Data Reports, identifying discrepancies during rail project close-out
