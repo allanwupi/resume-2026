@@ -6,7 +6,7 @@ My one-page resume, typeset in $\LaTeX$.
 
 ## Summary
 
-Engineering and computer science student with strong analytical and problem-solving skills, and experience in data analysis and visualisation. Passionate about applying technology to tackle problems in the resources and utilities sectors, particularly in automation and renewable energy.
+Engineering and computer science student with strong analytical and pr`oblem-solving skills, and experience in data analysis and visualisation. Passionate about applying technology to tackle problems in the resources and utilities sectors, particularly in automation and renewable energy.
 
 ## Technical Skills
 
